@@ -4,7 +4,11 @@
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -16,6 +20,8 @@ header {
   background-color: #93ae3d;
   background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, rgba(255,255,255, 0.5) 8px, rgba(255, 255, 255, 0.0) 10px);
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   align-items: center;
   z-index: 20;
@@ -23,7 +29,11 @@ header {
 
 .content {
   width: 795px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -46,13 +56,19 @@ header {
 .nav {
   width: 945px;
   height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .nav__arrows{
   height: inherit;
   width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   position: relative;
@@ -104,9 +120,13 @@ header {
   width: 120px;
   height: 25px;
   position: absolute;
+  -ms-grid-row-align: center;
   align-self: center;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 17px 17px 17px 17px 17px 17px 18px;
   grid-template-columns: 17px 17px 17px 17px 17px 17px 18px;
+  -ms-grid-rows: 12px 12px;
   grid-template-rows: 12px 12px;
 }
 
@@ -174,6 +194,8 @@ header {
 }
 
 .box1__caption-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   width: inherit;
@@ -231,6 +253,8 @@ header {
 }
 
 .box1__table__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -259,6 +283,8 @@ header {
 .box2 {
   width: inherit;
   margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -284,7 +310,12 @@ header {
 }
 
 .table-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   padding: 9px;
   box-sizing: border-box;
@@ -645,11 +676,15 @@ header {
   right: 0;
   z-index: 10;
   display: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
   align-items: center;
 }
 
 .modal__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -664,6 +699,8 @@ header {
   background: white;
   box-sizing: border-box;
   padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   font-family: 'Arial', sans-serif;
